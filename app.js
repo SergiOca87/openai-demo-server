@@ -9,7 +9,7 @@ const {
 	summarizeText,
 	generateKeywords,
 	generateImage,
-} = require('controllers/openaiController');
+} = require('/controllers/openaiController');
 
 app.use(cors());
 app.use(express.json());
